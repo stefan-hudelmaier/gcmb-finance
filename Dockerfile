@@ -1,3 +1,5 @@
+# From: https://depot.dev/docs/container-builds/how-to-guides/optimal-dockerfiles/python-uv-dockerfile
+
 FROM python:3.12-slim-bookworm AS base
  
 FROM base AS builder
@@ -14,5 +16,5 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 FROM base
 COPY --from=builder /app /app
 ENV PATH="/app/.venv/bin:$PATH"
-CMD ["python", "/app/main.py"]
 
+CMD ["python", "/app/main.py"]
