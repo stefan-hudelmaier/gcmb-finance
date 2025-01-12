@@ -103,6 +103,7 @@ TODO
 
 ### Indices
 
-* DAX: <Topic topic="finance/stock-exchange/index/^GDAXI" /> Points
+* Germany: DAX: <Topic topic="finance/stock-exchange/index/^GDAXI" /> Points
+* Australia: S&P/ASX All Ordinaries: <Topic topic="finance/stock-exchange/index/^AORD" /> Points
 
 TODO: Finish

@@ -150,7 +150,7 @@ def main():
             return
         symbol = all_symbols_by_identifier[symbol_id]
         price = update['price']
-        mqtt_publish(mqtt_client, f"stefan/stock-exchange/{symbol.symbol_type}/{symbol_id}", price)
+        mqtt_publish(mqtt_client, f"finance/stock-exchange/{symbol.symbol_type}/{symbol_id}", price)
 
     yliveticker.YLiveTicker(on_ticker=on_new_msg, ticker_names=[s.identifier for s in all_symbols])
 
