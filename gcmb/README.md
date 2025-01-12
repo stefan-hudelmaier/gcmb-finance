@@ -101,6 +101,11 @@ currencies = [
 
 TODO
 
+### Bitcoin
+
+* USD: <Topic topic="finance/stock-exchange/currency/BTC-USD" /> Bitcoin
+* EUR: <Topic topic="finance/stock-exchange/currency/BTC-EUR" /> Bitcoin
+
 ### Indices
 
 * Germany: DAX: <Topic topic="finance/stock-exchange/index/^GDAXI" /> Points
