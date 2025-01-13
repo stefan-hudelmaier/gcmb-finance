@@ -32,7 +32,7 @@ logger.addHandler(handler)
 @dataclass
 class Symbol:
     name: str
-    identifier: str
+    yahoo_identifier: str
     description: str
     symbol_type: str
 
@@ -110,7 +110,7 @@ currencies = [
 
 
 all_symbols = indices + currencies
-all_symbols_by_identifier = {s.identifier: s for s in all_symbols}
+all_symbols_by_identifier = {s.yahoo_identifier: s for s in all_symbols}
 
 
 def connect_mqtt():
@@ -144,15 +144,25 @@ def main():
     mqtt_client = connect_mqtt()
 
     def on_new_msg(ws, update):
-        symbol_id = update['id']
-        if not symbol_id in all_symbols_by_identifier:
-            logger.warning(f"Unknown symbol: {symbol_id}")
-            return
-        symbol = all_symbols_by_identifier[symbol_id]
-        price = update['price']
-        mqtt_publish(mqtt_client, f"finance/stock-exchange/{symbol.symbol_type}/{symbol_id}", price)
+        try:
+            symbol_id = update['id']
+            if not symbol_id in all_symbols_by_identifier:
+                logger.warning(f"Unknown symbol: {symbol_id}")
+                return
+            symbol = all_symbols_by_identifier[symbol_id]
+            price = update['price']
+            if symbol.symbol_type == 'currency':
+                # Currencies are published to e.g. finance/stock-exchange/currency/EUR/USD
+                topic = f"finance/stock-exchange/currency/{symbol.name}"
+            else:
+                # Indices are publish to e.g. finance/stock-exchange/index/GDAXI (without the special character)
+                symbol_topic = symbol.yahoo_identifier.replace('^', '')
+                topic = f"finance/stock-exchange/index/{symbol_topic}"
+            mqtt_publish(mqtt_client, topic, price)
+        except Exception as e:
+            logging.error(f"Error processing message: {e}")
 
-    yliveticker.YLiveTicker(on_ticker=on_new_msg, ticker_names=[s.identifier for s in all_symbols])
+    yliveticker.YLiveTicker(on_ticker=on_new_msg, ticker_names=[s.yahoo_identifier for s in all_symbols])
 
     mqtt_client.loop_forever()
 
