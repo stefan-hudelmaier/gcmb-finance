@@ -7,7 +7,7 @@ trading at the moment.
 
 ### Currencies against EURO
 
-* 1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3"/> EUR
+* 1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" topicLink="true"/> EUR
 * 1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/EUR" decimals="3"/> EUR
 * 1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3"/> EUR
 
