@@ -66,7 +66,7 @@ indices = [
 ]
 
 currencies = [
-    Symbol("USD/EUR", "USDEUR=X", "Exchange rate between the Euro and the United States Dollar.", "currency"),
+    Symbol("USD/EUR", "EUR=X", "Exchange rate between the Euro and the United States Dollar.", "currency"),
     Symbol("JPY/EUR", "JPYEUR=X", "Exchange rate between the Euro and the Japanese Yen.", "currency"),
     Symbol("GBP/EUR", "GBPEUR=X", "Exchange rate between the Euro and the British Pound Sterling.", "currency"),
     Symbol("AUD/EUR", "AUDEUR=X", "Exchange rate between the Euro and the Australian Dollar.", "currency"),
