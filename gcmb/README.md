@@ -7,24 +7,24 @@ trading at the moment.
 
 ### Currencies against EURO
 
-* 1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" topicLink="true" unit="EUR"/> EUR
-* 1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/EUR" decimals="3" topicLink="true" unit="EUR"/> EUR
-* 1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" topicLink="true" unit="EUR"/> EUR
+* 1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" topicLink="true" unit="EUR"/>
+* 1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/EUR" decimals="3" topicLink="true" unit="EUR"/>
+* 1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" topicLink="true" unit="EUR"/>
 
 [More Currencies](./currency)
 
 ### Currency against USD
 
-* 1 EUR = <Topic topic="finance/stock-exchange/currency/EUR/USD" decimals="3" topicLink="true" unit="USD"/> USD
-* 1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/USD" decimals="3" topicLink="true" unit="USD"/> USD
-* 1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/USD" decimals="3" topicLink="true" unit="USD"/> USD
+* 1 EUR = <Topic topic="finance/stock-exchange/currency/EUR/USD" decimals="3" topicLink="true" unit="USD"/>
+* 1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/USD" decimals="3" topicLink="true" unit="USD"/>
+* 1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/USD" decimals="3" topicLink="true" unit="USD"/>
 
 [More Currencies](./currency)
 
 ### Bitcoin
 
-* USD: <Topic topic="finance/stock-exchange/currency/BTC-USD" decimals="3" topicLink="true" unit="USD"/> USD
-* EUR: <Topic topic="finance/stock-exchange/currency/BTC-EUR" decimals="3" topicLink="true" unit="EUR"/> EUR
+* USD: <Topic topic="finance/stock-exchange/currency/BTC-USD" decimals="3" topicLink="true" unit="USD"/>
+* EUR: <Topic topic="finance/stock-exchange/currency/BTC-EUR" decimals="3" topicLink="true" unit="EUR"/>
 
 ### Indices
 
