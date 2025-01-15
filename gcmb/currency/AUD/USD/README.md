@@ -6,3 +6,11 @@ This value of this topic is the price of one {currency} in {base_currency}.
 
 1 AUD = <Topic topic="finance/stock-exchange/currency/AUD/USD" decimals="3" unit="USD"/>
 
+## AUD
+
+This value of this topic is the price of one AUD in USD.
+
+## Current Value
+
+1 AUD = <Topic topic="finance/stock-exchange/currency/AUD/USD" decimals="3" unit="USD"/>
+

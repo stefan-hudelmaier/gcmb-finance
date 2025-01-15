@@ -53,6 +53,6 @@ if __name__ == '__main__':
             currency = topic_parts[1]
             base_currency = topic_parts[2]
             f.write(f'## {topic_parts[1]}\n\n')
-            f.write("This value of this topic is the price of one {currency} in {base_currency}.\n\n")
+            f.write(f'This value of this topic is the price of one {currency} in {base_currency}.\n\n')
             f.write(f'## Current Value\n\n')
             f.write(f'1 {currency} = <Topic topic="{base_topic}/{topic}" decimals="3" unit="{base_currency}"/>\n\n')
