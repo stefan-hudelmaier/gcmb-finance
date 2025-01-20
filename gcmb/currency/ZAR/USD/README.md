@@ -14,3 +14,11 @@ This value of this topic is the price of one ZAR in USD.
 
 1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
 
+## ZAR
+
+This value of this topic is the price of one ZAR in USD.
+
+## Current Value
+
+1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
+

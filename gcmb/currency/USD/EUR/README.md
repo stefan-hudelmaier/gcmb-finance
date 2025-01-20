@@ -14,3 +14,11 @@ This value of this topic is the price of one USD in EUR.
 
 1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
 
+## USD
+
+This value of this topic is the price of one USD in EUR.
+
+## Current Value
+
+1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
+

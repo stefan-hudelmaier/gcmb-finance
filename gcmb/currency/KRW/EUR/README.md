@@ -14,3 +14,11 @@ This value of this topic is the price of one KRW in EUR.
 
 1 KRW = <Topic topic="finance/stock-exchange/currency/KRW/EUR" decimals="3" unit="EUR"/>
 
+## KRW
+
+This value of this topic is the price of one KRW in EUR.
+
+## Current Value
+
+1 KRW = <Topic topic="finance/stock-exchange/currency/KRW/EUR" decimals="3" unit="EUR"/>
+

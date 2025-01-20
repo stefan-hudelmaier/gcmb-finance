@@ -14,3 +14,11 @@ This value of this topic is the price of one TRY in EUR.
 
 1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
 
+## TRY
+
+This value of this topic is the price of one TRY in EUR.
+
+## Current Value
+
+1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
+

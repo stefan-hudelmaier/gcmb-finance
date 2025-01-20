@@ -14,3 +14,11 @@ This value of this topic is the price of one RUB in EUR.
 
 1 RUB = <Topic topic="finance/stock-exchange/currency/RUB/EUR" decimals="3" unit="EUR"/>
 
+## RUB
+
+This value of this topic is the price of one RUB in EUR.
+
+## Current Value
+
+1 RUB = <Topic topic="finance/stock-exchange/currency/RUB/EUR" decimals="3" unit="EUR"/>
+

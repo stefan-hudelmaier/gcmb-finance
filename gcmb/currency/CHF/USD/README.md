@@ -14,3 +14,11 @@ This value of this topic is the price of one CHF in USD.
 
 1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
 
+## CHF
+
+This value of this topic is the price of one CHF in USD.
+
+## Current Value
+
+1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
+
