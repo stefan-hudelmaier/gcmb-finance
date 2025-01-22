@@ -1,24 +1,11 @@
-## BRL
+## BRL/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/USD" decimals="3" unit="USD"/>
-
-## BRL
-
-This value of this topic is the price of one BRL in USD.
+Exchange rate between the United States Dollar and the Brazilian Real.
 
 ## Current Value
 
 1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/USD" decimals="3" unit="USD"/>
 
-## BRL
+## More information
 
-This value of this topic is the price of one BRL in USD.
-
-## Current Value
-
-1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [BRLUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/BRLUSD=X/)

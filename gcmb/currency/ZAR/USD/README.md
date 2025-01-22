@@ -1,24 +1,11 @@
-## ZAR
+## ZAR/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
-
-## ZAR
-
-This value of this topic is the price of one ZAR in USD.
+Exchange rate between the United States Dollar and the South African Rand.
 
 ## Current Value
 
 1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
 
-## ZAR
+## More information
 
-This value of this topic is the price of one ZAR in USD.
-
-## Current Value
-
-1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [ZARUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/ZARUSD=X/)

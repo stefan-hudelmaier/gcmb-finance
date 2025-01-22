@@ -1,24 +1,11 @@
-## GBP
+## GBP/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" unit="EUR"/>
-
-## GBP
-
-This value of this topic is the price of one GBP in EUR.
+Exchange rate between the Euro and the British Pound Sterling.
 
 ## Current Value
 
 1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" unit="EUR"/>
 
-## GBP
+## More information
 
-This value of this topic is the price of one GBP in EUR.
-
-## Current Value
-
-1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [GBPEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/GBPEUR=X/)

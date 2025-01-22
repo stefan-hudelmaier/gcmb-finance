@@ -1,24 +1,11 @@
-## USD
+## USD/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
-
-## USD
-
-This value of this topic is the price of one USD in EUR.
+Exchange rate between the Euro and the United States Dollar.
 
 ## Current Value
 
 1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
 
-## USD
+## More information
 
-This value of this topic is the price of one USD in EUR.
-
-## Current Value
-
-1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [EUR=X on Yahoo Finance](https://finance.yahoo.com/quote/EUR=X/)

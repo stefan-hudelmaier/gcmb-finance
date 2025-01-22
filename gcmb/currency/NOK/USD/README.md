@@ -1,24 +1,11 @@
-## NOK
+## NOK/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 NOK = <Topic topic="finance/stock-exchange/currency/NOK/USD" decimals="3" unit="USD"/>
-
-## NOK
-
-This value of this topic is the price of one NOK in USD.
+Exchange rate between the United States Dollar and the Norwegian Krone.
 
 ## Current Value
 
 1 NOK = <Topic topic="finance/stock-exchange/currency/NOK/USD" decimals="3" unit="USD"/>
 
-## NOK
+## More information
 
-This value of this topic is the price of one NOK in USD.
-
-## Current Value
-
-1 NOK = <Topic topic="finance/stock-exchange/currency/NOK/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [NOKUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/NOKUSD=X/)

@@ -1,24 +1,11 @@
-## ZAR
+## ZAR/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/EUR" decimals="3" unit="EUR"/>
-
-## ZAR
-
-This value of this topic is the price of one ZAR in EUR.
+Exchange rate between the Euro and the South African Rand.
 
 ## Current Value
 
 1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/EUR" decimals="3" unit="EUR"/>
 
-## ZAR
+## More information
 
-This value of this topic is the price of one ZAR in EUR.
-
-## Current Value
-
-1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [ZAREUR=X on Yahoo Finance](https://finance.yahoo.com/quote/ZAREUR=X/)

@@ -1,24 +1,11 @@
-## SGD
+## SGD/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/EUR" decimals="3" unit="EUR"/>
-
-## SGD
-
-This value of this topic is the price of one SGD in EUR.
+Exchange rate between the Euro and the Singapore Dollar.
 
 ## Current Value
 
 1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/EUR" decimals="3" unit="EUR"/>
 
-## SGD
+## More information
 
-This value of this topic is the price of one SGD in EUR.
-
-## Current Value
-
-1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [SGDEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/SGDEUR=X/)

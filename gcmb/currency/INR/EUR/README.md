@@ -1,24 +1,11 @@
-## INR
+## INR/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 INR = <Topic topic="finance/stock-exchange/currency/INR/EUR" decimals="3" unit="EUR"/>
-
-## INR
-
-This value of this topic is the price of one INR in EUR.
+Exchange rate between the Euro and the Indian Rupee.
 
 ## Current Value
 
 1 INR = <Topic topic="finance/stock-exchange/currency/INR/EUR" decimals="3" unit="EUR"/>
 
-## INR
+## More information
 
-This value of this topic is the price of one INR in EUR.
-
-## Current Value
-
-1 INR = <Topic topic="finance/stock-exchange/currency/INR/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [INREUR=X on Yahoo Finance](https://finance.yahoo.com/quote/INREUR=X/)

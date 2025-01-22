@@ -1,24 +1,11 @@
-## RUB
+## RUB/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 RUB = <Topic topic="finance/stock-exchange/currency/RUB/EUR" decimals="3" unit="EUR"/>
-
-## RUB
-
-This value of this topic is the price of one RUB in EUR.
+Exchange rate between the Euro and the Russian Ruble.
 
 ## Current Value
 
 1 RUB = <Topic topic="finance/stock-exchange/currency/RUB/EUR" decimals="3" unit="EUR"/>
 
-## RUB
+## More information
 
-This value of this topic is the price of one RUB in EUR.
-
-## Current Value
-
-1 RUB = <Topic topic="finance/stock-exchange/currency/RUB/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [RUBEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/RUBEUR=X/)

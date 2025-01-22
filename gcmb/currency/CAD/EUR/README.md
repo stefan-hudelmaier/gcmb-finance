@@ -1,24 +1,11 @@
-## CAD
+## CAD/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 CAD = <Topic topic="finance/stock-exchange/currency/CAD/EUR" decimals="3" unit="EUR"/>
-
-## CAD
-
-This value of this topic is the price of one CAD in EUR.
+Exchange rate between the Euro and the Canadian Dollar.
 
 ## Current Value
 
 1 CAD = <Topic topic="finance/stock-exchange/currency/CAD/EUR" decimals="3" unit="EUR"/>
 
-## CAD
+## More information
 
-This value of this topic is the price of one CAD in EUR.
-
-## Current Value
-
-1 CAD = <Topic topic="finance/stock-exchange/currency/CAD/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [CADEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/CADEUR=X/)

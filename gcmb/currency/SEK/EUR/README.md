@@ -1,24 +1,11 @@
-## SEK
+## SEK/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 SEK = <Topic topic="finance/stock-exchange/currency/SEK/EUR" decimals="3" unit="EUR"/>
-
-## SEK
-
-This value of this topic is the price of one SEK in EUR.
+Exchange rate between the Euro and the Swedish Krona.
 
 ## Current Value
 
 1 SEK = <Topic topic="finance/stock-exchange/currency/SEK/EUR" decimals="3" unit="EUR"/>
 
-## SEK
+## More information
 
-This value of this topic is the price of one SEK in EUR.
-
-## Current Value
-
-1 SEK = <Topic topic="finance/stock-exchange/currency/SEK/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [SEKEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/SEKEUR=X/)

@@ -1,24 +1,11 @@
-## CNY
+## CNY/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 CNY = <Topic topic="finance/stock-exchange/currency/CNY/USD" decimals="3" unit="USD"/>
-
-## CNY
-
-This value of this topic is the price of one CNY in USD.
+Exchange rate between the United States Dollar and the Chinese Yuan.
 
 ## Current Value
 
 1 CNY = <Topic topic="finance/stock-exchange/currency/CNY/USD" decimals="3" unit="USD"/>
 
-## CNY
+## More information
 
-This value of this topic is the price of one CNY in USD.
-
-## Current Value
-
-1 CNY = <Topic topic="finance/stock-exchange/currency/CNY/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [CNYUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/CNYUSD=X/)

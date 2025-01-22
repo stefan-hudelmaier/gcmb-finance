@@ -1,24 +1,11 @@
-## MXN
+## MXN/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 MXN = <Topic topic="finance/stock-exchange/currency/MXN/USD" decimals="3" unit="USD"/>
-
-## MXN
-
-This value of this topic is the price of one MXN in USD.
+Exchange rate between the United States Dollar and the Mexican Peso.
 
 ## Current Value
 
 1 MXN = <Topic topic="finance/stock-exchange/currency/MXN/USD" decimals="3" unit="USD"/>
 
-## MXN
+## More information
 
-This value of this topic is the price of one MXN in USD.
-
-## Current Value
-
-1 MXN = <Topic topic="finance/stock-exchange/currency/MXN/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [MXNUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/MXNUSD=X/)

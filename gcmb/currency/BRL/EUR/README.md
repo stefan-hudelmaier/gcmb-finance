@@ -1,24 +1,11 @@
-## BRL
+## BRL/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/EUR" decimals="3" unit="EUR"/>
-
-## BRL
-
-This value of this topic is the price of one BRL in EUR.
+Exchange rate between the Euro and the Brazilian Real.
 
 ## Current Value
 
 1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/EUR" decimals="3" unit="EUR"/>
 
-## BRL
+## More information
 
-This value of this topic is the price of one BRL in EUR.
-
-## Current Value
-
-1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [BRLEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/BRLEUR=X/)

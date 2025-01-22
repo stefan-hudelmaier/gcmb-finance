@@ -1,24 +1,11 @@
-## CHF
+## CHF/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
-
-## CHF
-
-This value of this topic is the price of one CHF in USD.
+Exchange rate between the United States Dollar and the Swiss Franc.
 
 ## Current Value
 
 1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
 
-## CHF
+## More information
 
-This value of this topic is the price of one CHF in USD.
-
-## Current Value
-
-1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [CHFUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/CHFUSD=X/)

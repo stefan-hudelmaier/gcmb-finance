@@ -1,24 +1,11 @@
-## SGD
+## SGD/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/USD" decimals="3" unit="USD"/>
-
-## SGD
-
-This value of this topic is the price of one SGD in USD.
+Exchange rate between the United States Dollar and the Singapore Dollar.
 
 ## Current Value
 
 1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/USD" decimals="3" unit="USD"/>
 
-## SGD
+## More information
 
-This value of this topic is the price of one SGD in USD.
-
-## Current Value
-
-1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [SGDUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/SGDUSD=X/)

@@ -1,24 +1,11 @@
-## TRY
+## TRY/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
-
-## TRY
-
-This value of this topic is the price of one TRY in EUR.
+Exchange rate between the Euro and the Turkish Lira.
 
 ## Current Value
 
 1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
 
-## TRY
+## More information
 
-This value of this topic is the price of one TRY in EUR.
-
-## Current Value
-
-1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [TRYEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/TRYEUR=X/)

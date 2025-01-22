@@ -1,24 +1,11 @@
-## NZD
+## NZD/EUR
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 NZD = <Topic topic="finance/stock-exchange/currency/NZD/EUR" decimals="3" unit="EUR"/>
-
-## NZD
-
-This value of this topic is the price of one NZD in EUR.
+Exchange rate between the Euro and the New Zealand Dollar.
 
 ## Current Value
 
 1 NZD = <Topic topic="finance/stock-exchange/currency/NZD/EUR" decimals="3" unit="EUR"/>
 
-## NZD
+## More information
 
-This value of this topic is the price of one NZD in EUR.
-
-## Current Value
-
-1 NZD = <Topic topic="finance/stock-exchange/currency/NZD/EUR" decimals="3" unit="EUR"/>
-
+More information can be found here: [NZDEUR=X on Yahoo Finance](https://finance.yahoo.com/quote/NZDEUR=X/)

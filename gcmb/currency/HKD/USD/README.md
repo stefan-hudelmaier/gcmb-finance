@@ -1,24 +1,11 @@
-## HKD
+## HKD/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 HKD = <Topic topic="finance/stock-exchange/currency/HKD/USD" decimals="3" unit="USD"/>
-
-## HKD
-
-This value of this topic is the price of one HKD in USD.
+Exchange rate between the United States Dollar and the Hong Kong Dollar.
 
 ## Current Value
 
 1 HKD = <Topic topic="finance/stock-exchange/currency/HKD/USD" decimals="3" unit="USD"/>
 
-## HKD
+## More information
 
-This value of this topic is the price of one HKD in USD.
-
-## Current Value
-
-1 HKD = <Topic topic="finance/stock-exchange/currency/HKD/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [HKDUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/HKDUSD=X/)

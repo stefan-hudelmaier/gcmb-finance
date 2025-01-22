@@ -1,24 +1,11 @@
-## NZD
+## NZD/USD
 
-This value of this topic is the price of one {currency} in {base_currency}.
-
-## Current Value
-
-1 NZD = <Topic topic="finance/stock-exchange/currency/NZD/USD" decimals="3" unit="USD"/>
-
-## NZD
-
-This value of this topic is the price of one NZD in USD.
+Exchange rate between the United States Dollar and the New Zealand Dollar.
 
 ## Current Value
 
 1 NZD = <Topic topic="finance/stock-exchange/currency/NZD/USD" decimals="3" unit="USD"/>
 
-## NZD
+## More information
 
-This value of this topic is the price of one NZD in USD.
-
-## Current Value
-
-1 NZD = <Topic topic="finance/stock-exchange/currency/NZD/USD" decimals="3" unit="USD"/>
-
+More information can be found here: [NZDUSD=X on Yahoo Finance](https://finance.yahoo.com/quote/NZDUSD=X/)
