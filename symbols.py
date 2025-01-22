@@ -7,6 +7,14 @@ class Symbol:
     description: str
     symbol_type: str
 
+    def topic(self):
+        if self.symbol_type == 'currency':
+            # Currencies are published to e.g. finance/stock-exchange/currency/EUR/USD
+            return f"finance/stock-exchange/currency/{self.name}"
+        else:
+            # Indices are published to e.g. finance/stock-exchange/index/GDAXI (without the special character)
+            return f"finance/stock-exchange/index/{self.yahoo_identifier.replace('^', '')}"
+
 
 indices = [
     Symbol("DAX", "^GDAXI", "The DAX index represents 30 major German companies trading on the Frankfurt Stock Exchange.", "index"),

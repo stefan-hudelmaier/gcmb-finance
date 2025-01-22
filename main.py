@@ -68,14 +68,7 @@ def main():
                 return
             symbol = all_symbols_by_identifier[symbol_id]
             price = update['price']
-            if symbol.symbol_type == 'currency':
-                # Currencies are published to e.g. finance/stock-exchange/currency/EUR/USD
-                topic = f"finance/stock-exchange/currency/{symbol.name}"
-            else:
-                # Indices are publish to e.g. finance/stock-exchange/index/GDAXI (without the special character)
-                symbol_topic = symbol.yahoo_identifier.replace('^', '')
-                topic = f"finance/stock-exchange/index/{symbol_topic}"
-            mqtt_publish(mqtt_client, topic, price)
+            mqtt_publish(mqtt_client, symbol.topic(), price)
         except Exception as e:
             logging.error(f"Error processing message: {e}")
 

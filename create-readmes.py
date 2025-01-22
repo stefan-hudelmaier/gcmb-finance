@@ -1,5 +1,7 @@
 import os
 
+from symbols import all_symbols
+
 base_topic = "finance/stock-exchange"
 
 currency_topics = [
@@ -44,15 +46,27 @@ currency_topics = [
 ]
 
 if __name__ == '__main__':
-    for topic in currency_topics:
-        directory = f'gcmb/{topic}'
+    for symbol in all_symbols:
+
+        topic_parts = symbol.topic().split('/')
+        print(topic_parts)
+        relative_topic_parts = topic_parts[2:]
+        relative_topic = '/'.join(relative_topic_parts)
+        directory = f'gcmb/{relative_topic}'
+
         if not os.path.exists(directory):
             os.makedirs(directory)
-        with open(f'{directory}/README.md', 'a') as f:
-            topic_parts = topic.split('/')
-            currency = topic_parts[1]
-            base_currency = topic_parts[2]
-            f.write(f'## {topic_parts[1]}\n\n')
-            f.write(f'This value of this topic is the price of one {currency} in {base_currency}.\n\n')
+        with open(f'{directory}/README.md', 'w') as f:
+            f.write(f'## {symbol.name}\n\n')
+            f.write(f'{symbol.description}\n\n')
             f.write(f'## Current Value\n\n')
-            f.write(f'1 {currency} = <Topic topic="{base_topic}/{topic}" decimals="3" unit="{base_currency}"/>\n\n')
+            if symbol.symbol_type == 'currency':
+                currency = relative_topic_parts[1]
+                base_currency = relative_topic_parts[2]
+                f.write(f'1 {currency} = <Topic topic="{symbol.topic()}" decimals="3" unit="{base_currency}"/>\n\n')
+            elif symbol.symbol_type == 'index':
+                f.write(f'<Topic topic="{symbol.topic()}" decimals="2" unit="points"/>\n\n')
+
+            f.write(f'## More information\n\n')
+            f.write(f'More information can be found here: [{symbol.yahoo_identifier} on Yahoo Finance](https://finance.yahoo.com/quote/{symbol.yahoo_identifier}/)\n')
+
