@@ -39,15 +39,17 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "paho-mqtt" },
+    { name = "protobuf" },
     { name = "python-dotenv" },
-    { name = "yliveticker" },
+    { name = "websocket-client" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "paho-mqtt", specifier = "==2.1.0" },
+    { name = "protobuf", specifier = "==5.29.3" },
     { name = "python-dotenv", specifier = "==1.0.1" },
-    { name = "yliveticker", specifier = ">=0.3.0" },
+    { name = "websocket-client", specifier = "==1.8.0" },
 ]
 
 [[package]]
@@ -57,17 +59,4 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e6/30/fba0d96b4b5fbf5948ed3f4681f7da2f9f64512e1d303f94b4cc174c24a5/websocket_client-1.8.0.tar.gz", hash = "sha256:3239df9f44da632f96012472805d40a23281a991027ce11d2f45a6f24ac4c3da", size = 54648 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5a/84/44687a29792a70e111c5c477230a72c4b957d88d16141199bf9acb7537a3/websocket_client-1.8.0-py3-none-any.whl", hash = "sha256:17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526", size = 58826 },
-]
-
-[[package]]
-name = "yliveticker"
-version = "0.3.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "protobuf" },
-    { name = "websocket-client" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/d6/22/d0cf3e9464853c41c3aea3e9895e37adadfd63d80d4d7f02679a300eae41/yliveticker-0.3.0.tar.gz", hash = "sha256:0d1eeb6830c9213bbbe0cbb2b96bd462fa85d1e97b4cfa7417c6b4336fe3a35f", size = 6258 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/28/a7/1d991a4a00e12923c52eca48abbe06fe4b541668b072d3f0196620b6317a/yliveticker-0.3.0-py3-none-any.whl", hash = "sha256:f5e5da55a62a45729808e91b188fc1536fbce900935f3189c0c08607b2e5433a", size = 6983 },
 ]

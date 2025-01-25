@@ -57,6 +57,18 @@ def mqtt_publish(client, topic, msg):
         logger.warning(f"Failed to send message to topic {topic}, reason: {status}")
 
 
+def on_websocket_close(ws, close_status, close_msg):
+    logger.error(f"Websocket closed: {close_status} {close_msg}. Exiting.")
+    # Let it crash
+    sys.exit(1)
+
+
+def on_websocket_error(ws, error):
+    logger.error(f"Websocket error: {error}. Exiting")
+    # Let it crash
+    sys.exit(1)
+
+
 def main():
     mqtt_client = connect_mqtt()
 
@@ -72,7 +84,12 @@ def main():
         except Exception as e:
             logging.error(f"Error processing message: {e}")
 
-    yliveticker.YLiveTicker(on_ticker=on_new_msg, ticker_names=[s.yahoo_identifier for s in all_symbols])
+    yliveticker.YLiveTicker(
+        ticker_names=[s.yahoo_identifier for s in all_symbols],
+        on_ticker=on_new_msg, 
+        on_close=on_websocket_close,
+        on_error=on_websocket_error
+    )
 
     mqtt_client.loop_forever()
 
