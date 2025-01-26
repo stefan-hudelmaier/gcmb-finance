@@ -8,6 +8,7 @@ import os
 import logging
 import sys
 from symbols import all_symbols, all_symbols_by_identifier
+from time import sleep
 
 
 broker = os.environ.get('MQTT_HOST', 'gcmb.io')
@@ -35,7 +36,10 @@ def connect_mqtt():
         if rc == 0:
             logger.info("Connected to MQTT Broker")
         else:
-            logger.error(f"Failed to connect, return code {rc}")
+            logger.error(f"Failed to connect, return code {rc}, exiting after 5 seconds")
+            # Let it crash
+            sleep(5)
+            sys.exit(1)
 
     mqtt_client = mqtt.Client(client_id=client_id,
                               callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
