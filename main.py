@@ -10,7 +10,6 @@ import sys
 from symbols import all_symbols, all_symbols_by_identifier
 from time import sleep
 
-
 broker = os.environ.get('MQTT_HOST', 'gcmb.io')
 client_id = os.environ['MQTT_CLIENT_ID']
 username = os.environ['MQTT_USERNAME']
@@ -30,25 +29,60 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
-
 def connect_mqtt():
+    connected = False
+    connecting = False
+
     def on_connect(client, userdata, flags, rc, properties):
+        nonlocal connected, connecting
+
+        connecting = False
         if rc == 0:
             logger.info("Connected to MQTT Broker")
+            connected = True
         else:
-            logger.error(f"Failed to connect, return code {rc}, exiting after 5 seconds")
-            # Let it crash
-            sleep(5)
-            sys.exit(1)
+            logger.error(f"Failed to connect, return code {rc}")
 
-    mqtt_client = mqtt.Client(client_id=client_id,
-                              callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
+    def on_disconnect(client, userdata, disconnect_flags, reason_code, properties):
+        logger.warning(f"Disconnected from MQTT Broker, return code {reason_code}")
+
+    mqtt_client = mqtt.Client(client_id=client_id, callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
     mqtt_client.tls_set(ca_certs='/etc/ssl/certs/ca-certificates.crt')
     mqtt_client.username_pw_set(username, password)
     mqtt_client.on_connect = on_connect
-    mqtt_client.on_disconnect = lambda client, userdata, disconnect_flags, reason_code, properties: logger.warning(
-        f"Disconnected from MQTT Broker, return code {reason_code}")
-    mqtt_client.connect(broker, port)
+    mqtt_client.on_disconnect = on_disconnect
+
+    while not connected:
+        try:
+            logger.info(f"Trying to connect: {connecting}, {connected}")
+            if not connecting:
+                mqtt_client.connect(broker, port)
+                connecting = True
+
+            mqtt_client.loop()
+        except Exception as e:
+            logger.error(f"Failed to connect to MQTT Broker: {e}")
+
+    return mqtt_client
+
+
+def connect_mqtt_simple():
+    def on_connect(client, userdata, flags, rc, properties):
+        if rc == 0:
+            logger.info("Connected to MQTT Broker")
+            connected = True
+        else:
+            logger.error(f"Failed to connect, return code {rc}")
+
+    def on_disconnect(client, userdata, disconnect_flags, reason_code, properties):
+        logger.warning(f"Disconnected from MQTT Broker, return code {reason_code}")
+
+    mqtt_client = mqtt.Client(client_id=client_id, callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
+    mqtt_client.tls_set(ca_certs='/etc/ssl/certs/ca-certificates.crt')
+    mqtt_client.username_pw_set(username, password)
+    mqtt_client.on_connect = on_connect
+    mqtt_client.on_disconnect = on_disconnect
+
     return mqtt_client
 
 
@@ -74,7 +108,7 @@ def on_websocket_error(ws, error):
 
 
 def main():
-    mqtt_client = connect_mqtt()
+    mqtt_client = connect_mqtt_simple()
 
     def on_new_msg(ws, update):
         try:
@@ -95,7 +129,7 @@ def main():
         on_error=on_websocket_error
     )
 
-    mqtt_client.loop_forever()
+    mqtt_client.loop_forever(retry_first_connection=True)
 
 
 if __name__ == '__main__':
