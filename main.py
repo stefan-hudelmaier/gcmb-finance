@@ -30,59 +30,23 @@ logger.addHandler(handler)
 
 
 def connect_mqtt():
-    connected = False
-    connecting = False
-
     def on_connect(client, userdata, flags, rc, properties):
-        nonlocal connected, connecting
-
-        connecting = False
         if rc == 0:
             logger.info("Connected to MQTT Broker")
-            connected = True
         else:
             logger.error(f"Failed to connect, return code {rc}")
 
     def on_disconnect(client, userdata, disconnect_flags, reason_code, properties):
         logger.warning(f"Disconnected from MQTT Broker, return code {reason_code}")
 
-    mqtt_client = mqtt.Client(client_id=client_id, callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
+    mqtt_client = mqtt.Client(client_id=client_id, callback_api_version=mqtt.CallbackAPIVersion.VERSION2, reconnect_on_failure=True)
     mqtt_client.tls_set(ca_certs='/etc/ssl/certs/ca-certificates.crt')
     mqtt_client.username_pw_set(username, password)
     mqtt_client.on_connect = on_connect
     mqtt_client.on_disconnect = on_disconnect
 
-    while not connected:
-        try:
-            logger.info(f"Trying to connect: {connecting}, {connected}")
-            if not connecting:
-                mqtt_client.connect(broker, port)
-                connecting = True
-
-            mqtt_client.loop()
-        except Exception as e:
-            logger.error(f"Failed to connect to MQTT Broker: {e}")
-
-    return mqtt_client
-
-
-def connect_mqtt_simple():
-    def on_connect(client, userdata, flags, rc, properties):
-        if rc == 0:
-            logger.info("Connected to MQTT Broker")
-            connected = True
-        else:
-            logger.error(f"Failed to connect, return code {rc}")
-
-    def on_disconnect(client, userdata, disconnect_flags, reason_code, properties):
-        logger.warning(f"Disconnected from MQTT Broker, return code {reason_code}")
-
-    mqtt_client = mqtt.Client(client_id=client_id, callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
-    mqtt_client.tls_set(ca_certs='/etc/ssl/certs/ca-certificates.crt')
-    mqtt_client.username_pw_set(username, password)
-    mqtt_client.on_connect = on_connect
-    mqtt_client.on_disconnect = on_disconnect
-
+    # Connection will be made once loop_start() has been called
+    mqtt_client.connect_async(broker, port)
     return mqtt_client
 
 
@@ -108,7 +72,7 @@ def on_websocket_error(ws, error):
 
 
 def main():
-    mqtt_client = connect_mqtt_simple()
+    mqtt_client = connect_mqtt()
 
     def on_new_msg(ws, update):
         try:
@@ -122,14 +86,15 @@ def main():
         except Exception as e:
             logging.error(f"Error processing message: {e}")
 
+
+    mqtt_client.loop_start()
+
     yliveticker.YLiveTicker(
         ticker_names=[s.yahoo_identifier for s in all_symbols],
         on_ticker=on_new_msg, 
         on_close=on_websocket_close,
         on_error=on_websocket_error
     )
-
-    mqtt_client.loop_forever(retry_first_connection=True)
 
 
 if __name__ == '__main__':
