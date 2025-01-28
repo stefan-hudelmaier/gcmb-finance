@@ -4,7 +4,7 @@ The BSE Sensex index represents 30 well-established and financially sound compan
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/BSESN" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/BSESN" decimals="2" unit="points"/>
 
 ## More information
 

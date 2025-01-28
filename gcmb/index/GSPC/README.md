@@ -4,7 +4,7 @@ The S&P 500 index tracks 500 large-cap U.S. companies listed on the NYSE or NASD
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/GSPC" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/GSPC" decimals="2" unit="points"/>
 
 ## More information
 

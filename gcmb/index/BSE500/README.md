@@ -4,7 +4,7 @@ The S&P BSE 500 index tracks the performance of the top 500 companies listed on 
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/BSE500" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/BSE500" decimals="2" unit="points"/>
 
 ## More information
 

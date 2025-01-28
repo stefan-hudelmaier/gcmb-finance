@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Singapore Dollar.
 
 ## Current Value
 
-1 SGD = <Topic topic="finance/stock-exchange/currency/SGD/EUR" decimals="3" unit="EUR"/>
+1 SGD = <Value topic="finance/stock-exchange/currency/SGD/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

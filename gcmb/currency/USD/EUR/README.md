@@ -4,7 +4,7 @@ Exchange rate between the Euro and the United States Dollar.
 
 ## Current Value
 
-1 USD = <Topic topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
+1 USD = <Value topic="finance/stock-exchange/currency/USD/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The Kuala Lumpur Composite index tracks the performance of the 30 largest compan
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/KLSE" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/KLSE" decimals="2" unit="points"/>
 
 ## More information
 

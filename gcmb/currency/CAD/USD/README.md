@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Canadian Dollar.
 
 ## Current Value
 
-1 CAD = <Topic topic="finance/stock-exchange/currency/CAD/USD" decimals="3" unit="USD"/>
+1 CAD = <Value topic="finance/stock-exchange/currency/CAD/USD" decimals="3" unit="USD"/>
 
 ## More information
 

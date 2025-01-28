@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Mexican Peso.
 
 ## Current Value
 
-1 MXN = <Topic topic="finance/stock-exchange/currency/MXN/USD" decimals="3" unit="USD"/>
+1 MXN = <Value topic="finance/stock-exchange/currency/MXN/USD" decimals="3" unit="USD"/>
 
 ## More information
 

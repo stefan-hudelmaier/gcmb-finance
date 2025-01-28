@@ -4,7 +4,7 @@ The FTSE MIB index is the benchmark index for the Borsa Italiana, tracking the 4
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/FTSEMIB.MI" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/FTSEMIB.MI" decimals="2" unit="points"/>
 
 ## More information
 

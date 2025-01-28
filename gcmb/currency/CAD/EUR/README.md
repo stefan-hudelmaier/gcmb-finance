@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Canadian Dollar.
 
 ## Current Value
 
-1 CAD = <Topic topic="finance/stock-exchange/currency/CAD/EUR" decimals="3" unit="EUR"/>
+1 CAD = <Value topic="finance/stock-exchange/currency/CAD/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

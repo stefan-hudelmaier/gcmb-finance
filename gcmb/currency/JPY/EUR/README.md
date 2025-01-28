@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Japanese Yen.
 
 ## Current Value
 
-1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/EUR" decimals="3" unit="EUR"/>
+1 JPY = <Value topic="finance/stock-exchange/currency/JPY/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

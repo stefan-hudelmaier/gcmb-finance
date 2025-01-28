@@ -4,7 +4,7 @@ Exchange rate between Bitcoin and the United States Dollar.
 
 ## Current Value
 
-1 BTC = <Topic topic="finance/stock-exchange/currency/BTC/USD" decimals="3" unit="USD"/>
+1 BTC = <Value topic="finance/stock-exchange/currency/BTC/USD" decimals="3" unit="USD"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Turkish Lira.
 
 ## Current Value
 
-1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/USD" decimals="3" unit="USD"/>
+1 TRY = <Value topic="finance/stock-exchange/currency/TRY/USD" decimals="3" unit="USD"/>
 
 ## More information
 

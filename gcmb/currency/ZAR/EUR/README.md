@@ -4,7 +4,7 @@ Exchange rate between the Euro and the South African Rand.
 
 ## Current Value
 
-1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/EUR" decimals="3" unit="EUR"/>
+1 ZAR = <Value topic="finance/stock-exchange/currency/ZAR/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

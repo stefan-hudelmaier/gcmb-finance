@@ -4,7 +4,7 @@ The FTSE 100 index includes the top 100 companies listed on the London Stock Exc
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/FTSE" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/FTSE" decimals="2" unit="points"/>
 
 ## More information
 

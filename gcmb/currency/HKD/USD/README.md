@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Hong Kong Dollar.
 
 ## Current Value
 
-1 HKD = <Topic topic="finance/stock-exchange/currency/HKD/USD" decimals="3" unit="USD"/>
+1 HKD = <Value topic="finance/stock-exchange/currency/HKD/USD" decimals="3" unit="USD"/>
 
 ## More information
 

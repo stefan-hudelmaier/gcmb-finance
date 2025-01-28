@@ -4,7 +4,7 @@ The CAC 40 index represents 40 of the largest French companies traded on the Eur
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/FCHI" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/FCHI" decimals="2" unit="points"/>
 
 ## More information
 

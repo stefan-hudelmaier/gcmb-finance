@@ -4,7 +4,7 @@ The DAX index represents 30 major German companies trading on the Frankfurt Stoc
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/GDAXI" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/GDAXI" decimals="2" unit="points"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The Dow Jones Industrial Average tracks 30 prominent U.S. companies.
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/DJI" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/DJI" decimals="2" unit="points"/>
 
 ## More information
 

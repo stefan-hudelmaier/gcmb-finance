@@ -4,7 +4,7 @@ The Russell 2000 index represents 2,000 small-cap companies in the U.S. market.
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/RUT" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/RUT" decimals="2" unit="points"/>
 
 ## More information
 

@@ -63,9 +63,9 @@ if __name__ == '__main__':
             if symbol.symbol_type == 'currency':
                 currency = relative_topic_parts[1]
                 base_currency = relative_topic_parts[2]
-                f.write(f'1 {currency} = <Topic topic="{symbol.topic()}" decimals="3" unit="{base_currency}"/>\n\n')
+                f.write(f'1 {currency} = <Value topic="{symbol.topic()}" decimals="3" unit="{base_currency}"/>\n\n')
             elif symbol.symbol_type == 'index':
-                f.write(f'<Topic topic="{symbol.topic()}" decimals="2" unit="points"/>\n\n')
+                f.write(f'<Value topic="{symbol.topic()}" decimals="2" unit="points"/>\n\n')
 
             f.write(f'## More information\n\n')
             f.write(f'More information can be found here: [{symbol.yahoo_identifier} on Yahoo Finance](https://finance.yahoo.com/quote/{symbol.yahoo_identifier}/)\n')

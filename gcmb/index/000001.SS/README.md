@@ -4,7 +4,7 @@ The Shanghai Composite index includes all stocks traded on the Shanghai Stock Ex
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/000001.SS" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/000001.SS" decimals="2" unit="points"/>
 
 ## More information
 

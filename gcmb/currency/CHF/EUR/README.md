@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Swiss Franc.
 
 ## Current Value
 
-1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/EUR" decimals="3" unit="EUR"/>
+1 CHF = <Value topic="finance/stock-exchange/currency/CHF/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

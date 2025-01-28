@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the South Korean Won.
 
 ## Current Value
 
-1 KRW = <Topic topic="finance/stock-exchange/currency/KRW/USD" decimals="3" unit="USD"/>
+1 KRW = <Value topic="finance/stock-exchange/currency/KRW/USD" decimals="3" unit="USD"/>
 
 ## More information
 

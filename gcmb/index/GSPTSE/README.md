@@ -4,7 +4,7 @@ The TSX Composite index represents the performance of the Toronto Stock Exchange
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/GSPTSE" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/GSPTSE" decimals="2" unit="points"/>
 
 ## More information
 

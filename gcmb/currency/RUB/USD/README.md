@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Russian Ruble.
 
 ## Current Value
 
-1 RUB = <Topic topic="finance/stock-exchange/currency/RUB/USD" decimals="3" unit="USD"/>
+1 RUB = <Value topic="finance/stock-exchange/currency/RUB/USD" decimals="3" unit="USD"/>
 
 ## More information
 

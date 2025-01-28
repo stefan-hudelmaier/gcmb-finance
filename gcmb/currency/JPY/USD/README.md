@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Japanese Yen.
 
 ## Current Value
 
-1 JPY = <Topic topic="finance/stock-exchange/currency/JPY/USD" decimals="3" unit="USD"/>
+1 JPY = <Value topic="finance/stock-exchange/currency/JPY/USD" decimals="3" unit="USD"/>
 
 ## More information
 

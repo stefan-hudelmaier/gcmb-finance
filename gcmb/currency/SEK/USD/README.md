@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Swedish Krona.
 
 ## Current Value
 
-1 SEK = <Topic topic="finance/stock-exchange/currency/SEK/USD" decimals="3" unit="USD"/>
+1 SEK = <Value topic="finance/stock-exchange/currency/SEK/USD" decimals="3" unit="USD"/>
 
 ## More information
 

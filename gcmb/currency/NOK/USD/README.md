@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Norwegian Krone.
 
 ## Current Value
 
-1 NOK = <Topic topic="finance/stock-exchange/currency/NOK/USD" decimals="3" unit="USD"/>
+1 NOK = <Value topic="finance/stock-exchange/currency/NOK/USD" decimals="3" unit="USD"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The KOSPI index tracks all common stocks traded on the Korea Exchange.
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/KS11" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/KS11" decimals="2" unit="points"/>
 
 ## More information
 

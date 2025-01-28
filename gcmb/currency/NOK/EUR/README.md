@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Norwegian Krone.
 
 ## Current Value
 
-1 NOK = <Topic topic="finance/stock-exchange/currency/NOK/EUR" decimals="3" unit="EUR"/>
+1 NOK = <Value topic="finance/stock-exchange/currency/NOK/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

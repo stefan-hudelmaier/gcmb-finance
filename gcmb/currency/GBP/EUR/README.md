@@ -4,7 +4,7 @@ Exchange rate between the Euro and the British Pound Sterling.
 
 ## Current Value
 
-1 GBP = <Topic topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" unit="EUR"/>
+1 GBP = <Value topic="finance/stock-exchange/currency/GBP/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

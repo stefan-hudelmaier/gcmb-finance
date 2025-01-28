@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Turkish Lira.
 
 ## Current Value
 
-1 TRY = <Topic topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
+1 TRY = <Value topic="finance/stock-exchange/currency/TRY/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

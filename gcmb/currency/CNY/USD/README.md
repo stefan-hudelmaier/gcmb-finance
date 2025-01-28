@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Chinese Yuan.
 
 ## Current Value
 
-1 CNY = <Topic topic="finance/stock-exchange/currency/CNY/USD" decimals="3" unit="USD"/>
+1 CNY = <Value topic="finance/stock-exchange/currency/CNY/USD" decimals="3" unit="USD"/>
 
 ## More information
 

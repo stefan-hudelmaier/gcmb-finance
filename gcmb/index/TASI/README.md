@@ -4,7 +4,7 @@ The Tadawul All Share Index is the benchmark index for the Saudi Stock Exchange.
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/TASI" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/TASI" decimals="2" unit="points"/>
 
 ## More information
 

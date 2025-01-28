@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Mexican Peso.
 
 ## Current Value
 
-1 MXN = <Topic topic="finance/stock-exchange/currency/MXN/EUR" decimals="3" unit="EUR"/>
+1 MXN = <Value topic="finance/stock-exchange/currency/MXN/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

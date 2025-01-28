@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Brazilian Real.
 
 ## Current Value
 
-1 BRL = <Topic topic="finance/stock-exchange/currency/BRL/EUR" decimals="3" unit="EUR"/>
+1 BRL = <Value topic="finance/stock-exchange/currency/BRL/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The MSCI World index tracks large and mid-cap companies across 23 developed mark
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/MSCIWO" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/MSCIWO" decimals="2" unit="points"/>
 
 ## More information
 

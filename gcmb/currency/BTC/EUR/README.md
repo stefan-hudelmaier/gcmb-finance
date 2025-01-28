@@ -4,7 +4,7 @@ Exchange rate between Bitcoin and the Euro.
 
 ## Current Value
 
-1 BTC = <Topic topic="finance/stock-exchange/currency/BTC/EUR" decimals="3" unit="EUR"/>
+1 BTC = <Value topic="finance/stock-exchange/currency/BTC/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The Nikkei 225 index tracks 225 large, publicly-owned companies in Japan.
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/N225" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/N225" decimals="2" unit="points"/>
 
 ## More information
 

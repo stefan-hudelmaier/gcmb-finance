@@ -4,7 +4,7 @@ The S&P/ASX All Ordinaries index represents the performance of the Australian st
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/AORD" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/AORD" decimals="2" unit="points"/>
 
 ## More information
 

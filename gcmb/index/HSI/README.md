@@ -4,7 +4,7 @@ The Hang Seng index includes the largest companies listed on the Hong Kong Stock
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/HSI" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/HSI" decimals="2" unit="points"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the South African Rand.
 
 ## Current Value
 
-1 ZAR = <Topic topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
+1 ZAR = <Value topic="finance/stock-exchange/currency/ZAR/USD" decimals="3" unit="USD"/>
 
 ## More information
 

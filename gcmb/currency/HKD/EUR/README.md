@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Hong Kong Dollar.
 
 ## Current Value
 
-1 HKD = <Topic topic="finance/stock-exchange/currency/HKD/EUR" decimals="3" unit="EUR"/>
+1 HKD = <Value topic="finance/stock-exchange/currency/HKD/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The MSCI Emerging Markets index represents large and mid-cap companies across 27
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/MSCIEF" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/MSCIEF" decimals="2" unit="points"/>
 
 ## More information
 

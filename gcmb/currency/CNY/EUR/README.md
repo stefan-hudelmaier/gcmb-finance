@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Chinese Yuan.
 
 ## Current Value
 
-1 CNY = <Topic topic="finance/stock-exchange/currency/CNY/EUR" decimals="3" unit="EUR"/>
+1 CNY = <Value topic="finance/stock-exchange/currency/CNY/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

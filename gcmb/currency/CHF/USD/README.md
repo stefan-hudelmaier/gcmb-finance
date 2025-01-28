@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Swiss Franc.
 
 ## Current Value
 
-1 CHF = <Topic topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
+1 CHF = <Value topic="finance/stock-exchange/currency/CHF/USD" decimals="3" unit="USD"/>
 
 ## More information
 

@@ -4,7 +4,7 @@ The Euronext 100 index comprises the top 100 blue-chip stocks listed on the Euro
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/N100" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/N100" decimals="2" unit="points"/>
 
 ## More information
 

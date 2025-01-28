@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Australian Dollar.
 
 ## Current Value
 
-1 AUD = <Topic topic="finance/stock-exchange/currency/AUD/EUR" decimals="3" unit="EUR"/>
+1 AUD = <Value topic="finance/stock-exchange/currency/AUD/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 

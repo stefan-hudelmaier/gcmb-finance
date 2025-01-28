@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Indian Rupee.
 
 ## Current Value
 
-1 INR = <Topic topic="finance/stock-exchange/currency/INR/USD" decimals="3" unit="USD"/>
+1 INR = <Value topic="finance/stock-exchange/currency/INR/USD" decimals="3" unit="USD"/>
 
 ## More information
 

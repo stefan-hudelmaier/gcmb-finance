@@ -4,7 +4,7 @@ The Euro Stoxx 50 index tracks the 50 largest companies in the Eurozone.
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/STOXX50E" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/STOXX50E" decimals="2" unit="points"/>
 
 ## More information
 

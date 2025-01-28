@@ -4,7 +4,7 @@ The OMX Stockholm 30 index represents the 30 most traded stocks on the Stockholm
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/OMX" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/OMX" decimals="2" unit="points"/>
 
 ## More information
 

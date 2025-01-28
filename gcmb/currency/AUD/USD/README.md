@@ -4,7 +4,7 @@ Exchange rate between the United States Dollar and the Australian Dollar.
 
 ## Current Value
 
-1 AUD = <Topic topic="finance/stock-exchange/currency/AUD/USD" decimals="3" unit="USD"/>
+1 AUD = <Value topic="finance/stock-exchange/currency/AUD/USD" decimals="3" unit="USD"/>
 
 ## More information
 

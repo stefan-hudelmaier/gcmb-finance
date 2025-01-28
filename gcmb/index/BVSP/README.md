@@ -4,7 +4,7 @@ The Ibovespa index is the benchmark index of the São Paulo Stock Exchange, repr
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/BVSP" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/BVSP" decimals="2" unit="points"/>
 
 ## More information
 

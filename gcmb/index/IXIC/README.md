@@ -4,7 +4,7 @@ The Nasdaq Composite index includes over 3,000 stocks listed on the Nasdaq Stock
 
 ## Current Value
 
-<Topic topic="finance/stock-exchange/index/IXIC" decimals="2" unit="points"/>
+<Value topic="finance/stock-exchange/index/IXIC" decimals="2" unit="points"/>
 
 ## More information
 

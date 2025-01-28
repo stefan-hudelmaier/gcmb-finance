@@ -4,7 +4,7 @@ Exchange rate between the Euro and the Swedish Krona.
 
 ## Current Value
 
-1 SEK = <Topic topic="finance/stock-exchange/currency/SEK/EUR" decimals="3" unit="EUR"/>
+1 SEK = <Value topic="finance/stock-exchange/currency/SEK/EUR" decimals="3" unit="EUR"/>
 
 ## More information
 
