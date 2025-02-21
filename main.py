@@ -87,7 +87,7 @@ def main():
             logging.error(f"Error processing message: {e}")
 
 
-    mqtt_client.loop_start(retry_first_connection=True)
+    mqtt_client.loop_start()
 
     yliveticker.YLiveTicker(
         ticker_names=[s.yahoo_identifier for s in all_symbols],
