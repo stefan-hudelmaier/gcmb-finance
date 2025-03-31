@@ -8,7 +8,8 @@ import os
 import logging
 import sys
 from symbols import all_symbols, all_symbols_by_identifier
-from time import sleep
+import time
+from threading import Thread
 
 broker = os.environ.get('MQTT_HOST', 'gcmb.io')
 client_id = os.environ['MQTT_CLIENT_ID']
@@ -27,6 +28,8 @@ handler.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
+
+last_successful_message = None
 
 
 def connect_mqtt():
@@ -55,8 +58,10 @@ def mqtt_publish(client, topic, msg):
     status = result.rc
     if status == 0:
         logger.debug(f"Sent '{msg}' to topic {topic}")
+        return True
     else:
         logger.warning(f"Failed to send message to topic {topic}, reason: {status}")
+        return False
 
 
 def on_websocket_close(ws, close_status, close_msg):
@@ -71,6 +76,16 @@ def on_websocket_error(ws, error):
     sys.exit(1)
 
 
+def watchdog():
+    while True:
+        time.sleep(60)
+        logger.info("Watchdog checking for inactivity")
+        if last_successful_message is not None and time.time() - last_successful_message > 60 * 60:
+            logger.error("No messages received in the last hour, restarting")
+            # sys.exit would not work in a thread
+            os._exit(1)
+
+
 def main():
     mqtt_client = connect_mqtt()
 
@@ -82,12 +97,19 @@ def main():
                 return
             symbol = all_symbols_by_identifier[symbol_id]
             price = update['price']
-            mqtt_publish(mqtt_client, symbol.topic(), price)
+            successful_publish = mqtt_publish(mqtt_client, symbol.topic(), price)
+
+            if successful_publish:
+                global last_successful_message
+                last_successful_message = time.time()
         except Exception as e:
             logging.error(f"Error processing message: {e}")
 
 
     mqtt_client.loop_start()
+
+    watchdog_thread = Thread(target=watchdog, args=())
+    watchdog_thread.start()
 
     yliveticker.YLiveTicker(
         ticker_names=[s.yahoo_identifier for s in all_symbols],
