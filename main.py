@@ -30,6 +30,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 last_successful_message = None
+started = time.time()
 
 
 def connect_mqtt():
@@ -79,10 +80,14 @@ def on_websocket_error(ws, error):
 def watchdog():
     while True:
         time.sleep(60)
-        logger.info("Watchdog checking for inactivity")
-        if last_successful_message is not None and time.time() - last_successful_message > 60 * 60:
-            logger.error("No messages received in the last hour, restarting")
+        logger.info(f"Watchdog checking for inactivity: Last successful message was {last_successful_message}")
+        now = time.time()
+        if last_successful_message is not None and now - last_successful_message > 10 * 60:
+            logger.error("No messages sent in the ten minutes, restarting")
             # sys.exit would not work in a thread
+            os._exit(1)
+        elif last_successful_message is None and now - started > 5 * 60:
+            logger.error("No message has been sent yet and service is already running for five minutes, restarting")
             os._exit(1)
 
 
