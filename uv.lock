@@ -2,6 +2,18 @@ version = 1
 requires-python = ">=3.12"
 
 [[package]]
+name = "gcmb-publisher"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "paho-mqtt" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/27/51/43dd1a2b299fe7edcb1e0338176c40e5fcd404efc12b8b7a33b63ef0b9e2/gcmb_publisher-0.4.0.tar.gz", hash = "sha256:f46e4c55c58c1b1df64e03c0442e9597721441facc71a1305f7337c31f52e401", size = 2568 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9c/63/3e9619f894e47e82b29fabafe7e9a523ef2b9a28ff8c296b690427db08b1/gcmb_publisher-0.4.0-py3-none-any.whl", hash = "sha256:a8e52d3f078858627815abfa402f41a9543c39013188a6431ada4b5aae6aca36", size = 2394 },
+]
+
+[[package]]
 name = "paho-mqtt"
 version = "2.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -38,7 +50,7 @@ name = "test"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "paho-mqtt" },
+    { name = "gcmb-publisher" },
     { name = "protobuf" },
     { name = "python-dotenv" },
     { name = "websocket-client" },
@@ -46,7 +58,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "paho-mqtt", specifier = "==2.1.0" },
+    { name = "gcmb-publisher", specifier = ">=0.4.0" },
     { name = "protobuf", specifier = "==5.29.3" },
     { name = "python-dotenv", specifier = "==1.0.1" },
     { name = "websocket-client", specifier = "==1.8.0" },
